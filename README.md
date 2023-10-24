@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.autodesk.io/logo/white/stacked.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.autodesk.io/logo/black/stacked.png">
+  <img alt="Autodesk Platform Services" src="https://cdn.autodesk.io/logo/black/stacked.png">
+</picture>
+
 # aps-cheatsheet
 
 Useful information for using Autodesk Platform Services.

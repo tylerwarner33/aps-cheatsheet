@@ -1,9 +1,8 @@
 
 
-
 ### Transpose Matrix
 Used to convert a matrix between row-major order & column-major order.
-![](Row_and_column_major_order.png)
+![](Images/MatrixRowAndColumnMajorOrder.png)
 
 ```csharp
 public double[] TransposeMatrix(double[] inputMatrix, int width = 4, int height = 4)

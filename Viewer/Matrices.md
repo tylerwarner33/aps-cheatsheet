@@ -2,6 +2,7 @@
 
 ### Transpose Matrix
 Used to convert a matrix between row-major order & column-major order.
+
 ![](Images/MatrixRowAndColumnMajorOrder.png)
 
 ```csharp

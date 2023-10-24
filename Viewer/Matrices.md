@@ -23,8 +23,10 @@ public double[] TransposeMatrix(double[] inputMatrix, int width = 4, int height 
 ```
 
 ```csharp
-public double[,] TransposeMatrix(double[,] inputMatrix, int width = 4, int height = 4)
+public double[,] TransposeMatrix(double[,] inputMatrix)
 {
+    int width = matrix.GetLength(0);
+    int height = matrix.GetLength(1);
     double[,] result = new double[width, height];
 
     for (int i = 0; i < height; i++)

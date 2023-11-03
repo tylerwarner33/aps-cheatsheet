@@ -1,7 +1,11 @@
-### Transpose Matrix
-Used to convert a matrix between row-major order & column-major order.
-
+### Transformation Matrix
 ![](Images/MatrixRowAndColumnMajorOrder.png)
+
+Column Major Applications: Inventor
+Row Major Applications: APS Viewer
+
+### Transpose A Matrix
+Used to convert a matrix between row-major order & column-major order.
 
 ```csharp
 public double[] TransposeMatrix(double[] inputMatrix, int width = 4, int height = 4)

@@ -1,12 +1,18 @@
 ### Transformation Matrix
+
 ![](Images/MatrixRowAndColumnMajorOrder.png)
 
+
 Column Major Applications: APS Viewer
+
 Row Major Applications: Inventor
 
 
 ### Transpose A Matrix
+
+
 Used to convert a matrix between row-major order & column-major order.
+
 
 ```csharp
 public double[] TransposeMatrix(double[] inputMatrix, int width = 4, int height = 4)
@@ -27,6 +33,7 @@ public double[] TransposeMatrix(double[] inputMatrix, int width = 4, int height 
 }
 ```
 
+
 ```csharp
 public double[,] TransposeMatrix(double[,] inputMatrix)
 {
@@ -46,10 +53,12 @@ public double[,] TransposeMatrix(double[,] inputMatrix)
 }
 ```
 
+
 References: [#1](https://en.wikipedia.org/wiki/Transpose), [#2](https://stackoverflow.com/questions/29483660/how-to-transpose-matrix)
 
 
 ## Resources
+
 - [opengl-tutorial](https://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/)
 - [e-verse](https://e-verse.com/blog-build/dealing-with-matrix-tranformations/)
 - [Discover three.js](https://discoverthreejs.com/book/first-steps/transformations/)

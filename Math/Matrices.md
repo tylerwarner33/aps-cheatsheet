@@ -1,8 +1,9 @@
 ### Transformation Matrix
 ![](Images/MatrixRowAndColumnMajorOrder.png)
 
-Column Major Applications: Inventor
-Row Major Applications: APS Viewer
+Column Major Applications: APS Viewer
+Row Major Applications: Inventor
+
 
 ### Transpose A Matrix
 Used to convert a matrix between row-major order & column-major order.
